@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="navbarExtendido">
+            <nav class="navbarSimple">
+                <div class="navbarSimple__logo">
+
+                </div>
+    
+                <!-- ENLANCES -->
+                <ul class="navbarSimple__links">
+                    <a>
+                        <div class="navbarSimple__links__div"></div>
+                        <span class="navbarSimple__links__span">Inicio</span>
+                    </a>
+                    <a>
+                        <div class="navbarSimple__links__div"></div>
+                        <span class="navbarSimple__links__span">Productos</span>
+                    </a>
+                    <a>
+                        <div class="navbarSimple__links__div"></div>
+                        <span class="navbarSimple__links__span">Servicios</span>
+                    </a>
+                    <a>
+                        <div class="navbarSimple__links__div"></div>
+                        <span class="navbarSimple__links__span">Registro</span>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <picture class="main__pictureIzquierda">
+                <!-- Smartphone -->
+                <source srcset="
+                
+                ./img/smartphone/fotoCentro1.webp 1x,
+                ./img/smartphone/fotoCentro1@2x.webp 2x,
+                ./img/smartphone/fotoCentro1@3x.webp 3x"
+                media="(min-width:320px) and (orientation:portrait)">
+                
+                <!-- Desktop -->
+                <source srcset="
+                ./img/smartphone/imagenIzquierda.webp 1x,
+                ./img/smartphone/imagenIzquierda@2x.webp 2x"
+                media="(min-width:1000px)">
+
+                <img class="main__logo" src="" alt="Foto de perfil"> 
+            </picture>
+            <section class="main__textoCentral">
+            <p>Lorem ipsum dolor sit amet consectetur. Mauris dui sapien at vitae pretium. Fermentum tellus laoreet aliquam ultricies viverra. Nulla sagittis in pretium arcu aliquam quam at interdum porttitor. Consectetur sit sagittis purus ornare diam. Netus suspendisse vitae massa venenatis vulputate id. Ante ullamcorper tincidunt diam non diam habitasse enim. Porttitor arcu laoreet purus quam hac orci purus et. Nec iaculis id suspendisse eros eu id egestas. Quam hac massa turpis consectetur</p>
+            </section>
+            <picture class="main__pictureDerecha">
+                <!-- Smartphone -->
+                <source srcset="
+                ./img/smartphone/fotoCentro2.webp 1x,
+                ./img/smartphone/fotoCentro2@2x.webp 2x,
+                ./img/smartphone/fotoCentro2@3x.webp 3x"
+                media="(min-width:320px) and (orientation:portrait)">
+                
+                <!-- Desktop -->
+                <source srcset="
+                ./img/smartphone/imagenDerecha.webp 1x,
+                ./img/smartphone/imagenDerecha@2x.webp 2x"
+                media="(min-width:1000px)">
+
+                <img class="mian__logo" src="" alt="Foto de perfil"> 
+            </picture>
+
+
+
+        </main>
+
+
+
+        <!-- FOOTER -->
+    <!-- Zona extendida -->
+    <div class="footerExtendido"></div>
+    <footer class="footerSimple">
+        <div class="footerSimple__logo">
+        
+
+        </div>
+        <!-- SOCIAL -->
+        <div class="footerSimple__svg">
+            <img src="img/svg/logoTwitter.svg" alt="">
+            <img src="img/svg/logoFacebook.svg" alt="">
+            <img src="img/svg/logoInstagram.svg" alt="">
+
+        </div>
+
+        <!-- ENLANCES -->
+        <section class="footerSimple__link">
+        <ul class="footerSimple__links">
+            <li class="footerSimple__links__li">Inicio</li>
+            <li class="footerSimple__links__li">Servicios</li>
+            <li class="footerSimple__links__li">Nosotros</li>
+            <li class="footerSimple__links__li">Contactar</li>
+        </ul>
+
+        <ul class="footerSimple__links__empresa">
+            <li class="footerSimple__links__li">Informacion legal</li>
+            <li class="footerSimple__links__li">Privacidad</li>
+            <li class="footerSimple__links__li">Seguridad</li>
+            <li class="footerSimple__links__li">Nosotros</li>
+        </ul>
+        </section>
+        <!-- Copyright -->
+        <h6 class="footerSimple__copy">Copyright &copy; 2023 StrongGym</h6>
+    </footer>
+</div>
+
+    </div>
+</body>
+</html>
