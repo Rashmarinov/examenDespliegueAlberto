@@ -1,7 +1,17 @@
-*{
-    list-style-type: none;
+@font-face {
+    font-family: 'opensans';
+    src: url('../fonts/opensans.woff') format('woff');
 }
 
+
+*{
+    list-style-type: none;
+
+}
+
+body{
+    font-family: "opensans";
+}
 .navbarExtendido{
     width: 100vw;
     display: flex;
@@ -83,10 +93,20 @@ justify-content: center;
 }
 
 .main__pictureIzquierda, .main__pictureDerecha, .main__textoCentral{
-    
-    width: 324px;
-    object-fit: contain;
+    margin: 10px;
 } 
+
+@media only screen and (min-width:1000px){
+.main{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+}
+
 
 
 *{
